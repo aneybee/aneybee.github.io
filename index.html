@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annie Belmonte - About Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(180deg, #ff914d, #ff6600);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            position: relative;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 5px solid white;
+            position: absolute;
+            top: -60px;
+            left: 50%;
+            transform: translateX(-50%);
+            object-fit: cover;
+            background: #eee;
+        }
+        h1 {
+            margin-top: 60px;
+            font-size: 24px;
+            color: #333;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .title {
+            color: #555;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .portfolio-btn {
+            background-color: #ff6600;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            display: inline-block;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .portfolio-btn i {
+            margin-right: 8px;
+        }
+        .bio {
+            color: #777;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .socials {
+            margin-top: 20px;
+        }
+        .socials a {
+            color: #999;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .socials a:hover {
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="profile.jpg" alt="Annie Belmonte" class="profile-img">
+        
+        <h1>Annie Belmonte</h1>
+        <p class="title">Web Evangelist. Educator. Born-Again Geek in PH.</p>
+        
+        <a href="https://www.freelancer.com/u/iamannie" class="portfolio-btn">
+            <i class="fas fa-briefcase"></i> View my portfolio
+        </a>
+        
+        <p class="bio">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/anniebelmonte"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.upwork.com/freelancers/~01a0ce2aa4850ddb60?viewMode=1"><i class="fa-brands fa-upwork"></i></a>
+            <a href="https://www.pinterest.com/aneybee/"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+    </div>
+
+</body>
+</html>
